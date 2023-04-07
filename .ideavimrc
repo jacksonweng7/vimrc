@@ -18,8 +18,15 @@ map L $
 imap jj <Esc>
 
 imap i/ \
-
-
+imap <C-j> <Down>
+imap <C-k> <Up>
+imap ( ()<Esc>i
+imap { {}<Esc>i
+imap [ []<Esc>i
+imap < <><Esc>i
+imap " ""<Esc>i
+""Quit visual mode
+vnoremap v <Esc>
 
 "" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
 "" Map \r to the Reformat Code action
