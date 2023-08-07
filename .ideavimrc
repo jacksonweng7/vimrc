@@ -16,6 +16,7 @@ map H ^
 map L $
 
 imap jj <Esc>
+imap kk <Esc>
 
 imap i/ \
 imap <C-j> <Down>
@@ -23,7 +24,7 @@ imap <C-k> <Up>
 imap ( ()<Esc>i
 imap { {}<Esc>i
 imap [ []<Esc>i
-imap < <><Esc>i
+
 imap " ""<Esc>i
 ""Quit visual mode
 vnoremap v <Esc>
