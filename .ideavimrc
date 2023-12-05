@@ -25,7 +25,6 @@ imap ( ()<Esc>i
 imap { {}<Esc>i
 imap [ []<Esc>i
 
-imap " ""<Esc>i
 ""Quit visual mode
 vnoremap v <Esc>
 
